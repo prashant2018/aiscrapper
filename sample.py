@@ -5,7 +5,7 @@ import csv
 # Define the configuration for the scraping pipeline
 graph_config = {
    "llm": {
-       "api_key": "sk-proj-dk0kq2mV8vMtSLpurrXxT3BlbkFJeogQSSdZiTRuon9HESCx",
+       "api_key": "",
        "model": "openai/gpt-4o-mini",
    },
    "verbose": True,
