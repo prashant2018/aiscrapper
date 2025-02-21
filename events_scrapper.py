@@ -1,10 +1,11 @@
 from scrapegraphai.graphs import SmartScraperGraph,SmartScraperMultiGraph
 import json
 import csv
+import os
 # Define the configuration for the scraping pipeline
 graph_config = {
    "llm": {
-       "api_key": "",
+       "api_key": os.getenv("API_KEY"),
        "model": "openai/gpt-4o-mini",
    },
    "verbose": True,
