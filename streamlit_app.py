@@ -25,7 +25,7 @@ if st.button("Submit"):
             "model": "openai/gpt-4o-mini",
         },
         "verbose": True,
-        "headless": False,
+        "headless": True,
         }
     if api_key and source and prompt:
         smart_scraper_graph = SmartScraperGraph(
