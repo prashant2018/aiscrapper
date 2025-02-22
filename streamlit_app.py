@@ -1,8 +1,17 @@
 import streamlit as st
 import json
 from scrapegraphai.graphs import SmartScraperGraph,SmartScraperMultiGraph
+import json
+import pandas as pd
 
-st.title("AI Scrapper For My Puja Darling")
+playwright_install()
+
+from helper import (
+    playwright_install,
+    add_download_options
+)
+
+st.title("AI Scrapper")
 
 api_key = st.text_input("Enter API Key", type="password")
 source = st.text_input("Enter API URL")
