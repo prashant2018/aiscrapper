@@ -25,7 +25,7 @@ if st.button("Submit"):
             "model": "openai/gpt-4o-mini",
         },
         "verbose": True,
-        "headless": True,
+        "headless": False,
         }
     if api_key and source and prompt:
         smart_scraper_graph = SmartScraperGraph(
@@ -35,6 +35,7 @@ if st.button("Submit"):
             )
         # Run the pipeline
         result = smart_scraper_graph.run()
+        print(json.dumps(result, indent=4))
         st.text(json.dumps(result, indent=4))        
 else:
     st.warning("Please fill in all fields before submitting.")
