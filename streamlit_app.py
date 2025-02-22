@@ -3,13 +3,13 @@ import json
 from scrapegraphai.graphs import SmartScraperGraph,SmartScraperMultiGraph
 import json
 import pandas as pd
-
-playwright_install()
-
 from helper import (
     playwright_install,
     add_download_options
 )
+
+playwright_install()
+
 
 st.title("AI Scrapper")
 
