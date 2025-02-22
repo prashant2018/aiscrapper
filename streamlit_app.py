@@ -12,7 +12,7 @@ from helper import (
 playwright_install()
 
 
-st.title("AI Scrapper")
+st.title("AI Scrapper For My Puja Darling ❤️")
 
 api_key = st.text_input("Enter API Key", type="password")
 source = st.text_input("Enter API URL")

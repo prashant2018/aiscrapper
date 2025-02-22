@@ -8,13 +8,16 @@ graph_config = {
        "model": "openai/gpt-4o-mini",
    },
    "verbose": True,
-   "headless": False,
+   "headless": True,
+   "browser": "chrome",
+   "driver_path":"/opt/homebrew/bin/chromedriver",
+   "browser_path":"/opt/homebrew/bin/chromium"
 }
 
 # Create the SmartScraperGraph instance
 smart_scraper_graph = SmartScraperGraph(
-    prompt="Extract the list of event name <event_name>, event date<event_date>, location<location> and link to event<event_link>.",
-    source="https://10times.com/india/technology",
+    prompt="Extract the list of movie name,year, description, image icon url, detail page url",
+    source="https://www.imdb.com/find/?q=horror&s=tt&exact=true&ref_=fn_ttl_ex",
     config=graph_config
 )
 
