@@ -3,13 +3,14 @@ import json
 from scrapegraphai.graphs import SmartScraperGraph,SmartScraperMultiGraph
 import json
 import pandas as pd
+import nest_asyncio
 from playwright.sync_api import sync_playwright
 from helper import (
     playwright_install,
     add_download_options
 )
-
 playwright_install()
+nest_asyncio.apply()
 
 
 st.title("AI Scrapper For My Puja Darling ❤️")

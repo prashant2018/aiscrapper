@@ -1,6 +1,8 @@
 from scrapegraphai.graphs import SmartScraperGraph,SmartScraperMultiGraph
 import json
 import os
+import nest_asyncio
+nest_asyncio.apply()
 # Define the configuration for the scraping pipeline
 graph_config = {
    "llm": {
@@ -9,9 +11,7 @@ graph_config = {
    },
    "verbose": True,
    "headless": True,
-   "browser": "chrome",
-   "driver_path":"/opt/homebrew/bin/chromedriver",
-   "browser_path":"/opt/homebrew/bin/chromium"
+#    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36",
 }
 
 # Create the SmartScraperGraph instance
@@ -25,18 +25,18 @@ smart_scraper_graph = SmartScraperGraph(
 result = smart_scraper_graph.run()
 print(json.dumps(result, indent=4))
 
-# sources = []
-# for res in result['events']:
-#     sources.append(res['event_link'])
 
-# result_list = []
-# for source in sources[:2]:
-#     smart_scraper_graph = SmartScraperGraph(
-#         prompt="Extract the Timings, Entry Fees, Estimated Turnout, website.",
-#         source=source,
-#         config=graph_config
+
+# async def scrapegraph_products(domain_url: str, prompt: str):
+#     scrape_graph = SmartScraperGraph(
+#         prompt=prompt,
+#         source=domain_url,
+#         config=graph_config,
 #     )
-#     result = smart_scraper_graph.run()
-#     result_list.append(result)
+#     loop = asyncio.get_running_loop()
+#     result = await loop.run_in_executor(None, scrape_graph.run)
+#     print(result)
+#     return result
 
-# print(json.dumps(result_list, indent=4))
+# if __name__=='__main__':
+#     asyncio.run(scrapegraph_products("https://www.imdb.com/find/?q=horror&s=tt&exact=true&ref_=fn_ttl_ex","Extract the list of movie name,year, description, image icon url, detail page url"))
