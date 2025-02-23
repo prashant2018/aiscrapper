@@ -61,7 +61,7 @@ def fetch_page_content(url):
 
 
 
-st.title("AI Scrapper For My Puja Darling ❤️")
+st.title("AI Scrapper")
 
 api_key = st.text_input("Enter API Key", type="password")
 url = st.text_input("Enter the URL")
@@ -90,7 +90,17 @@ if st.button("Submit"):
             )
         # Run the pipeline
         result = smart_scraper_graph.run()
+        json_resp = json.dumps(result)
         print(json.dumps(result, indent=4))
-        st.text(json.dumps(result, indent=4))        
+        df = pd.DataFrame(json_resp)
+        csv = df.to_csv(index=False)
+        st.download_button(
+            label="Download CSV",
+            data=csv,
+            file_name="data.csv",
+            mime="text/csv"
+        )
+        st.text(json.dumps(result, indent=4))    
+   
 else:
     st.warning("Please fill in all fields before submitting.")

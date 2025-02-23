@@ -1,6 +1,6 @@
 from scrapegraphai.graphs import SmartScraperGraph,SmartScraperMultiGraph
-import json
-import os
+import json, os
+
 # Define the configuration for the scraping pipeline
 graph_config = {
    "llm": {
@@ -13,7 +13,7 @@ graph_config = {
 
 # Create the SmartScraperGraph instance
 smart_scraper_graph = SmartScraperGraph(
-    prompt="Extract the list of event name <event_name>, event date<event_date>, location<location> and link to event<event_link>.",
+    prompt="Extract the list with following event name <event_name>, event date<event_date>, location<location> and link to event<event_link>. The respnse should be a compatible with pandas dataframe.",
     source="https://10times.com/india/technology",
     config=graph_config
 )
@@ -21,19 +21,3 @@ smart_scraper_graph = SmartScraperGraph(
 # Run the pipeline
 result = smart_scraper_graph.run()
 print(json.dumps(result, indent=4))
-
-# sources = []
-# for res in result['events']:
-#     sources.append(res['event_link'])
-
-# result_list = []
-# for source in sources[:2]:
-#     smart_scraper_graph = SmartScraperGraph(
-#         prompt="Extract the Timings, Entry Fees, Estimated Turnout, website.",
-#         source=source,
-#         config=graph_config
-#     )
-#     result = smart_scraper_graph.run()
-#     result_list.append(result)
-
-# print(json.dumps(result_list, indent=4))
