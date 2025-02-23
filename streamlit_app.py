@@ -43,8 +43,6 @@ def fetch_page_content(url):
             # Log page status and headers
             print(f"Headers: {page.evaluate('() => navigator.userAgent')}")
 
-            print("Movie list loaded")
-
             content = page.content()
 
             # Save the HTML for debugging
@@ -52,8 +50,8 @@ def fetch_page_content(url):
                 f.write(content)
 
             # Capture a screenshot for further debugging
-            page.screenshot(path="screenshot.png")
-            print("Screenshot saved as screenshot.png")
+            # page.screenshot(path="screenshot.png")
+            # print("Screenshot saved as screenshot.png")
 
             browser.close()
             return content
