@@ -26,6 +26,9 @@ if st.button("Submit"):
             "api_key": api_key,
             "model": "openai/gpt-4o-mini",
         },
+        "loader_kwargs": {
+            "slow_mo": 10000
+        },
         "verbose": True,
         "headless": True,
         }
