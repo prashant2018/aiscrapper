@@ -90,16 +90,20 @@ if st.button("Submit"):
             )
         # Run the pipeline
         result = smart_scraper_graph.run()
-        json_resp = json.dumps(result)
-        print(json.dumps(result, indent=4))
-        df = pd.DataFrame(json_resp)
-        csv = df.to_csv(index=False)
-        st.download_button(
-            label="Download CSV",
-            data=csv,
-            file_name="data.csv",
-            mime="text/csv"
-        )
+        print("result type", type(result))
+        try:
+            k =  list(result.keys())[0]
+            data = result[k]
+            df = pd.DataFrame(data)
+            csv = df.to_csv(index=False)
+            st.download_button(
+                label="Download CSV",
+                data=csv,
+                file_name="data.csv",
+                mime="text/csv"
+            )
+        except Exception as e:
+            st.warning(f"unable to create csv file! {str(e)}")
         st.text(json.dumps(result, indent=4))    
    
 else:

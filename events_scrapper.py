@@ -20,4 +20,7 @@ smart_scraper_graph = SmartScraperGraph(
 
 # Run the pipeline
 result = smart_scraper_graph.run()
+print("result keys",list(result.keys())[0])
+print("result val", result[list(result.keys())[0]])
+
 print(json.dumps(result, indent=4))

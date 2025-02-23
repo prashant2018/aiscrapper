@@ -1,40 +1,41 @@
-0,"{'event_name': 'India Inc On The Move (IIOTM) 6th edition', 'event_date': 'Wed, 19 Feb 2025', 'location': 'New Delhi', 'event_link': 'https://10times.com/e143-dkrr-shr0-9/visitors'}"
-1,"{'event_name': 'International Engineering & Technology Fair (IETF)', 'event_date': 'Thu, 20 - Sat, 22 Feb 2025', 'location': 'New Delhi', 'event_link': 'https://10times.com/engineering-technology-fair/visitors'}"
-2,"{'event_name': 'India Industrial Automation Robotics and Electronics Expo (IIAREE) 5th edition', 'event_date': 'Thu, 20 - Sat, 22 Feb 2025', 'location': 'New Delhi', 'event_link': 'https://10times.com/e13r-p2kp-2dd5/visitors'}"
-3,"{'event_name': 'HR Tech Conference & Awards', 'event_date': 'Mon, 17 - Wed, 19 Feb 2025', 'location': 'Mumbai', 'event_link': 'https://10times.com/hr-tech-conference-awards/visitors'}"
-4,"{'event_name': 'Tech & Innovation Summit', 'event_date': 'Thu, 27 - Fri, 28 Feb 2025', 'location': 'Bengaluru', 'event_link': 'https://10times.com/e1rx-prx5-520g/visitors'}"
-5,"{'event_name': 'NASSCOM Technology & Leadership Forum', 'event_date': 'Mon, 24 - Tue, 25 Feb 2025', 'location': 'Mumbai', 'event_link': 'https://10times.com/ntlf-mumbai/visitors'}"
-6,"{'event_name': 'IOTshow', 'event_date': 'Wed, 26 - Fri, 28 Feb 2025', 'location': 'Bengaluru', 'event_link': 'https://10times.com/iot-show/visitors'}"
-7,"{'event_name': 'Digital Summit', 'event_date': 'Thu, 20 - Fri, 21 Feb 2025', 'location': 'Bengaluru', 'event_link': 'https://10times.com/e1d3-p4kf-5g1x-x/visitors'}"
-8,"{'event_name': 'GEN - AI Conclave and Awards (Leveraging AI for Secure-by-Design ITSM)', 'event_date': 'Thu, 20 Feb 2025', 'location': 'Bengaluru', 'event_link': 'https://10times.com/e1r0-s6r1-x1hk/visitors'}"
-9,"{'event_name': 'Future Fintech Forum & Exhibition (F3EX)', 'event_date': 'Thu, 27 Mar 2025', 'location': 'Bengaluru', 'event_link': 'https://10times.com/e1xp-p34s-4d3d/visitors'}"
-10,"{'event_name': 'Future of AI in Data Analytics Summit (FAIDAS)', 'event_date': 'Thu, 20 Feb 2025', 'location': 'Mumbai', 'event_link': 'https://10times.com/e106-dkff-k3fk-0/visitors'}"
-11,"{'event_name': 'Fintech India Expo (FE)', 'event_date': 'Wed, 19 - Fri, 21 Mar 2025', 'location': 'New Delhi', 'event_link': 'https://10times.com/fintech-expo-new-delhi/visitors'}"
-12,"{'event_name': 'ad:tech New Delhi', 'event_date': 'Wed, 05 - Thu, 06 Mar 2025', 'location': 'New Delhi', 'event_link': 'https://10times.com/ad-tech-new-delhi/visitors'}"
-13,"{'event_name': 'W3 Summit', 'event_date': 'Thu, 27 - Fri, 28 Feb 2025', 'location': 'Bengaluru', 'event_link': 'https://10times.com/e1rx-p1r8-x1f7/visitors'}"
-14,"{'event_name': 'Smart CIO Summit', 'event_date': 'Thu, 06 Mar 2025', 'location': 'Mumbai', 'event_link': 'https://10times.com/e1rs-16hf-48dk/visitors'}"
-15,"{'event_name': 'Data Center & Cloud Infrastructure Conclave & Awards', 'event_date': 'Fri, 21 Feb 2025', 'location': 'Bengaluru', 'event_link': 'https://10times.com/e1d0-12k4-dhxs-k/visitors'}"
-16,"{'event_name': 'Smart Cities India Expo', 'event_date': 'Wed, 19 - Fri, 21 Mar 2025', 'location': 'New Delhi', 'event_link': 'https://10times.com/smart-cities-india/visitors'}"
-17,"{'event_name': 'CISO6 Cyber Security Summit', 'event_date': 'Fri, 28 Feb 2025', 'location': 'Pune', 'event_link': 'https://10times.com/e1d5-73r1-xssx-d/visitors'}"
-18,"{'event_name': 'Aegis Graham Bell Awards', 'event_date': 'Thu, 20 Feb 2025', 'location': 'New Delhi', 'event_link': 'https://10times.com/e1sz-h56s-gz41/visitors'}"
-19,"{'event_name': 'ETAuto Connected Vehicle Virtual Summit (ETAutoConVec)', 'event_date': 'Thu, 20 Feb 2025', 'location': 'Chennai', 'event_link': 'https://10times.com/e15s-rxg3-gk03/visitors'}"
-20,"{'event_name': 'Spring India Expo (ISN Expo)', 'event_date': 'Sun, 02 Mar 2025', 'location': 'Ahmedabad', 'event_link': 'https://10times.com/e1k3-22p3-dhdr/visitors'}"
-21,"{'event_name': 'CIO Cloud Summit', 'event_date': 'Thu, 27 Feb 2025', 'location': 'Mumbai', 'event_link': 'https://10times.com/e1dr-411z-f0kz-s/visitors'}"
-22,"{'event_name': 'Retail Leadership Summit (RLS)', 'event_date': 'Thu, 27 - Fri, 28 Feb 2025', 'location': 'Mumbai', 'event_link': 'https://10times.com/rls/visitors'}"
-23,"{'event_name': 'IndiaSoft', 'event_date': 'Wed, 19 - Fri, 21 Mar 2025', 'location': 'New Delhi', 'event_link': 'https://10times.com/indiasoft-virtual/visitors'}"
-24,"{'event_name': 'Global Artificial Intelligence Summit & Awards (GAISA)', 'event_date': 'Fri, 11 - Sat, 12 Apr 2025', 'location': 'New Delhi', 'event_link': 'https://10times.com/global-ai-summit/visitors'}"
-25,"{'event_name': 'ETCIO CIO Awards for Enterprise IT Excellence', 'event_date': 'Thu, 27 Feb 2025', 'location': 'Mumbai', 'event_link': 'https://10times.com/e12d-zd6r-gk2x-0/visitors'}"
-26,"{'event_name': 'INBUSH ERA World Summit', 'event_date': 'Wed, 19 - Fri, 21 Feb 2025', 'location': 'Noida', 'event_link': 'https://10times.com/inbush-era-world-summit-india/visitors'}"
-27,"{'event_name': 'International Conference on NDE 4.0', 'event_date': 'Mon, 03 - Thu, 06 Mar 2025', 'location': 'Bengaluru', 'event_link': 'https://10times.com/e1d4-01g6-sssp-f/visitors'}"
-28,"{'event_name': 'International Spice Conference', 'event_date': 'Mon, 24 - Thu, 27 Feb 2025', 'location': 'Bengaluru', 'event_link': 'https://10times.com/e1dz-40dg-58hh-k/visitors'}"
-29,"{'event_name': 'NewGen Marketing Innovation Summit (Digital Marketing Online Summit)', 'event_date': 'Fri, 07 Mar 2025', 'location': 'Bengaluru', 'event_link': 'https://10times.com/digital-marketing-agencies/visitors'}"
-30,"{'event_name': 'The 7 Digital Dialogues Conclave', 'event_date': 'Fri, 28 Feb - Sat, 01 Mar 2025', 'location': 'Bengaluru', 'event_link': 'https://10times.com/e14d-rsz4-kdr2-7/visitors'}"
-31,"{'event_name': 'India Digital Enabler Awards (Entrepreneur Idea)', 'event_date': 'Fri, 28 Feb 2025', 'location': 'Bengaluru', 'event_link': 'https://10times.com/e11k-dh1f-x3r9/visitors'}"
-32,"{'event_name': 'Test Engineering and Automation Summit - Pune', 'event_date': 'Fri, 28 Feb 2025', 'location': 'Pune', 'event_link': 'https://10times.com/e1dr-4008-xdsk-z/visitors'}"
-33,"{'event_name': 'CII TN Infrastructure Summit: Tamil Nadu', 'event_date': 'Thu, 20 Feb 2025', 'location': 'Chennai', 'event_link': 'https://10times.com/e1xg-r1h4-h5h6/visitors'}"
-34,"{'event_name': 'Transforming Healthcare with IT (THIT Conference) 11th edition', 'event_date': 'Fri, 21 - Sat, 22 Feb 2025', 'location': 'New Delhi', 'event_link': 'https://10times.com/transforming-healthcare-with-it-bangalore/visitors'}"
-35,"{'event_name': 'AI in L&D; Summit', 'event_date': 'Fri, 14 Mar 2025', 'location': 'Bengaluru', 'event_link': 'https://10times.com/e1d5-2r4p-r8hx-d/visitors'}"
-36,"{'event_name': 'SPM Summit India', 'event_date': 'Fri, 28 Feb - Sat, 01 Mar 2025', 'location': 'Bengaluru', 'event_link': 'https://10times.com/e1rr-g4p8-r4f2/visitors'}"
-37,"{'event_name': 'Seasides InfoSec Conference', 'event_date': 'Thu, 20 - Sat, 22 Feb 2025', 'location': 'Goa', 'event_link': 'https://10times.com/e1d2-11s8-pzzr-h/visitors'}"
-38,"{'event_name': 'International Conference on Intelligent Computing and Networking (IC-ICN)', 'event_date': 'Fri, 21 - Sat, 22 Feb 2025', 'location': 'Mumbai', 'event_link': 'https://10times.com/ic-icn-mumbai/visitors'}"
-39,"{'event_name': 'International Conference on Innovative Practices in Technology and Management (ICIPTM)', 'event_date': 'Wed, 19 - Fri, 21 Feb 2025', 'location': 'Greater Noida', 'event_link': 'https://10times.com/e1zr-5227-xkxx/visitors'}"
+,event_name,event_date,location,event_link
+0,India Inc On The Move (IIOTM) 6th edition,"Wed, 19 Feb 2025",New Delhi,https://10times.com/e143-dkrr-shr0-9/visitors
+1,International Engineering & Technology Fair (IETF),"Thu, 20 - Sat, 22 Feb 2025",New Delhi,https://10times.com/engineering-technology-fair/visitors
+2,India Industrial Automation Robotics and Electronics Expo (IIAREE) 5th edition,"Thu, 20 - Sat, 22 Feb 2025",New Delhi,https://10times.com/e13r-p2kp-2dd5/visitors
+3,HR Tech Conference & Awards,"Mon, 17 - Wed, 19 Feb 2025",Mumbai,https://10times.com/hr-tech-conference-awards/visitors
+4,Tech & Innovation Summit,"Thu, 27 - Fri, 28 Feb 2025",Bengaluru,https://10times.com/e1rx-prx5-520g/visitors
+5,NASSCOM Technology & Leadership Forum,"Mon, 24 - Tue, 25 Feb 2025",Mumbai,https://10times.com/ntlf-mumbai/visitors
+6,IOTshow,"Wed, 26 - Fri, 28 Feb 2025",Bengaluru,https://10times.com/iot-show/visitors
+7,Digital Summit,"Thu, 20 - Fri, 21 Feb 2025",Bengaluru,https://10times.com/e1d3-p4kf-5g1x-x/visitors
+8,GEN - AI Conclave and Awards (Leveraging AI for Secure-by-Design ITSM),"Thu, 20 Feb 2025",Bengaluru,https://10times.com/e1r0-s6r1-x1hk/visitors
+9,Future Fintech Forum & Exhibition (F3EX),"Thu, 27 Mar 2025",Bengaluru,https://10times.com/e1xp-p34s-4d3d/visitors
+10,Future of AI in Data Analytics Summit (FAIDAS),"Thu, 20 Feb 2025",Mumbai,https://10times.com/e106-dkff-k3fk-0/visitors
+11,Fintech India Expo (FE),"Wed, 19 - Fri, 21 Mar 2025",New Delhi,https://10times.com/fintech-expo-new-delhi/visitors
+12,ad:tech New Delhi,"Wed, 05 - Thu, 06 Mar 2025",New Delhi,https://10times.com/ad-tech-new-delhi/visitors
+13,W3 Summit,"Thu, 27 - Fri, 28 Feb 2025",Bengaluru,https://10times.com/e1rx-p1r8-x1f7/visitors
+14,Smart CIO Summit,"Thu, 06 Mar 2025",Mumbai,https://10times.com/e1rs-16hf-48dk/visitors
+15,Data Center & Cloud Infrastructure Conclave & Awards,"Fri, 21 Feb 2025",Bengaluru,https://10times.com/e1d0-12k4-dhxs-k/visitors
+16,Smart Cities India Expo,"Wed, 19 - Fri, 21 Mar 2025",New Delhi,https://10times.com/smart-cities-india/visitors
+17,CISO6 Cyber Security Summit,"Fri, 28 Feb 2025",Pune,https://10times.com/e1d5-73r1-xssx-d/visitors
+18,Aegis Graham Bell Awards,"Thu, 20 Feb 2025",New Delhi,https://10times.com/e1sz-h56s-gz41/visitors
+19,ETAuto Connected Vehicle Virtual Summit (ETAutoConVec),"Thu, 20 Feb 2025",Chennai,https://10times.com/e15s-rxg3-gk03/visitors
+20,Spring India Expo (ISN Expo),"Sun, 02 Mar 2025",Ahmedabad,https://10times.com/e1k3-22p3-dhdr/visitors
+21,CIO Cloud Summit,"Thu, 27 Feb 2025",Mumbai,https://10times.com/e1dr-411z-f0kz-s/visitors
+22,Retail Leadership Summit (RLS),"Thu, 27 - Fri, 28 Feb 2025",Mumbai,https://10times.com/rls/visitors
+23,IndiaSoft,"Wed, 19 - Fri, 21 Mar 2025",New Delhi,https://10times.com/indiasoft-virtual/visitors
+24,Global Artificial Intelligence Summit & Awards (GAISA),"Fri, 11 - Sat, 12 Apr 2025",New Delhi,https://10times.com/global-ai-summit/visitors
+25,ETCIO CIO Awards for Enterprise IT Excellence,"Thu, 27 Feb 2025",Mumbai,https://10times.com/e12d-zd6r-gk2x-0/visitors
+26,INBUSH ERA World Summit,"Wed, 19 - Fri, 21 Feb 2025",Noida,https://10times.com/inbush-era-world-summit-india/visitors
+27,International Conference on NDE 4.0,"Mon, 03 - Thu, 06 Mar 2025",Bengaluru,https://10times.com/e1d4-01g6-sssp-f/visitors
+28,International Spice Conference,"Mon, 24 - Thu, 27 Feb 2025",Bengaluru,https://10times.com/e1dz-40dg-58hh-k/visitors
+29,NewGen Marketing Innovation Summit (Digital Marketing Online Summit),"Fri, 07 Mar 2025",Bengaluru,https://10times.com/digital-marketing-agencies/visitors
+30,The 7 Digital Dialogues Conclave,"Fri, 28 Feb - Sat, 01 Mar 2025",Bengaluru,https://10times.com/e14d-rsz4-kdr2-7/visitors
+31,India Digital Enabler Awards (Entrepreneur Idea),"Fri, 28 Feb 2025",Bengaluru,https://10times.com/e11k-dh1f-x3r9/visitors
+32,Test Engineering and Automation Summit - Pune,"Fri, 28 Feb 2025",Pune,https://10times.com/e1dr-4008-xdsk-z/visitors
+33,CII TN Infrastructure Summit: Tamil Nadu,"Thu, 20 Feb 2025",Chennai,https://10times.com/e1xg-r1h4-h5h6/visitors
+34,Transforming Healthcare with IT (THIT Conference) 11th edition,"Fri, 21 - Sat, 22 Feb 2025",New Delhi,https://10times.com/transforming-healthcare-with-it-bangalore/visitors
+35,AI in L&D; Summit,"Fri, 14 Mar 2025",Bengaluru,https://10times.com/e1d5-2r4p-r8hx-d/visitors
+36,SPM Summit India,"Fri, 28 Feb - Sat, 01 Mar 2025",Bengaluru,https://10times.com/e1rr-g4p8-r4f2/visitors
+37,Seasides InfoSec Conference,"Thu, 20 - Sat, 22 Feb 2025",Goa,https://10times.com/e1d2-11s8-pzzr-h/visitors
+38,International Conference on Intelligent Computing and Networking (IC-ICN),"Fri, 21 - Sat, 22 Feb 2025",Mumbai,https://10times.com/ic-icn-mumbai/visitors
+39,International Conference on Innovative Practices in Technology and Management (ICIPTM),"Wed, 19 - Fri, 21 Feb 2025",Greater Noida,https://10times.com/e1zr-5227-xkxx/visitors
